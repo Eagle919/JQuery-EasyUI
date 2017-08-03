@@ -1,0 +1,22 @@
+
+① 开发环境搭建
+	到目标页面引入五个文件并将其导入到相应位置
+	
+code
+	<!-- 第一部分：样式文件 -->
+	<!-- 1.默认主题文件 -->
+	<link rel="stylesheet" type="text/css" href="/jQueryEasyUI/css/themes/default/easyui.css" />
+	
+	<!-- 2.图标的样式文件 -->
+	<link rel="stylesheet" type="text/css" href="/jQueryEasyUI/css/themes/icon.css" />
+	
+	<!-- 第二部分：JavaScript库文件 -->
+	<!-- 1.jQuery的库文件——一定要比EasyUI的库文件先引入 -->
+	<script type="text/javascript" src="/jQueryEasyUI/jQuery/jquery.min.js"></script>
+	
+	<!-- 2.EasyUI的主体库文件 -->
+	<script type="text/javascript" src="/jQueryEasyUI/jQuery/jquery.easyui.min.js"></script>
+	
+	<!-- 3.本地化文件 -->
+	<script type="text/javascript" src="/jQueryEasyUI/jQuery/easyui-lang-zh_CN.js"></script>
+	
